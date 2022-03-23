@@ -15,7 +15,25 @@
 
 }
 
+@font-face {
+    font-family: MetaOT-Norm;
+    src: url("CD/MetaOT-Norm.otf") format("opentype");
+}
 
+@font-face {
+    font-family: MeetaOT-Light;
+    src: url("CD/MetaOT-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MetaOT-Bold;
+    src: url("CD/MetaOT-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MetaOT-Book;
+    src: url("CD/MetaOT-Book.otf") format("opentype");
+}
 
 
 .header-content{  
@@ -23,40 +41,56 @@
     display: flex;    
     align-content: flex-start;
     align-items: center;
+    margin-bottom: 1rem;
     
     
 }
 
-img{
-    display: block;
-    width: 10%;
+#logo{
+    
+    display: flex;
+    width: 13%;
     height: auto;
+    margin-left: 1rem;
+
 
     
     
 }
+
+
+
+
+
 
 .flex-container{
     display: flex;
-    background-color: var(--color-secundarygrey);
+    height: 40rem;
+    background-image: url(/Bilder/texture-1033755_1920.jpg);
+    height: 60rem;
     flex-direction: row;
     justify-content: space-evenly;
+    
+
     
     
     
 }
 
 .flex-item{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     padding: 10rem;
-    background-color: var(--color-innovativ);
-    color: white;
-    width: 5rem;
-    height:15rem;    
+    background-color: darkgrey;
+    color: var(--color-primary);
+    width: 8rem;
+    height:18rem;    
     text-align: center;
     border-style: solid;
     border-color: white;
-    border-width: 0.1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1rem;
+    font-family: MetaOT-Bold;
+    font-size: 40px;
     
     
     
@@ -64,11 +98,13 @@ img{
 }
 
 .greetings{
-    margin: 2rem;
+    margin-left: 10rem;
     display: flex;
     text-align: center;
     color: var(--color-schriftfarbe);
-    font-size: 1em;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: MetaOT-Bold;
+    
 }
+
+
