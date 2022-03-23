@@ -11,6 +11,12 @@
     --color-sekundarycyan: #009fe3;
     --color-secundarymittelblau: #0069b4;
     --color-secundarygrey: #b2b2b2;
+    --color-automotive: #1d9dd9;
+    --color-event: #ffee00;
+    --color-secundaryred: #ff6752;
+    --color-secundarygreen: #95c11f;
+
+
 
 
 }
@@ -81,13 +87,13 @@
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     padding: 10rem;
-    background-color: darkgrey;
-    color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-background);
     width: 8rem;
     height:18rem;    
     text-align: center;
     border-style: solid;
-    border-color: white;
+    border-color: var(--color-secundarygreen);
     border-width: 1rem;
     font-family: MetaOT-Bold;
     font-size: 40px;
