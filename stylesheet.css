@@ -50,67 +50,124 @@
     margin-bottom: 1rem;
     
     
+    
 }
 
 #logo{
     
     display: flex;
-    width: 13%;
+    width: 15%;
     height: auto;
     margin-left: 1rem;
+   
 
 
     
     
 }
-
-
 
 
 
 
 .flex-container{
+    
     display: flex;
-    height: 40rem;
-    background-image: url(/Bilder/texture-1033755_1920.jpg);
-    height: 60rem;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-
-    
-    
-    
-}
-
-.flex-item{
+    width: 100%;   
+    height:100rem;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
-    padding: 10rem;
-    background-color: var(--color-primary);
-    color: var(--color-background);
-    width: 8rem;
-    height:18rem;    
-    text-align: center;
-    border-style: solid;
-    border-color: var(--color-secundarygreen);
-    border-width: 1rem;
-    font-family: MetaOT-Bold;
-    font-size: 40px;
+    /* background-color:var(--color-innovativ);  */
+    background-image: url(/Bilder/texture-1033755_1920.jpg); 
+    padding-top: 2rem;
+    padding-left: 3rem;
+    
+      
     
     
-    
- 
+
 }
+
+.parken{
+    display: flex;
+    
+}
+
+
+
+.child{
+    padding-top: 3rem;
+    margin-top: 10rem;
+    width: 15rem;
+    height: 28rem;
+    /* background-image: url(/Bilder/texture-1033755_1920.jpg); */
+    background-color: var(--color-innovativ);
+    color:white;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family: MetaOT-Bold;
+    font-weight: bold;
+    border: 0.9rem solid;
+}
+
+.item-p6{
+    
+   
+    border-color: var(--color-secundaryred);
+    
+
+}
+
+.item-p7{
+    border-color: var(--color-secundarygreen);
+    
+
+}
+.item-p8{
+    border-color: var(--color-secundarygreen);
+    
+
+}
+
 
 .greetings{
-    margin-left: 10rem;
+    margin-left: 20rem;
     display: flex;
     text-align: center;
     color: var(--color-schriftfarbe);
     font-size: 20px;
-    font-family: MetaOT-Bold;
+    font-family: MetaOT-Norm;
     
 }
 
+.right {
+    border: 0.1rem solid;
+    border-color: var(--color-primary);
+    
+    display: flex;
+    width: 75%;
+    background-color: var(--color-background);
+    margin-left: 2rem;
+}
+
+.container-2{
+    display: flex;
+    
+}
+
+.fahrt{
+    position: absolute;
+    font-family: MetaOT-Norm;
+    font-weight: 0.5rem;
+    font-size: 1.6rem;
+    color: var(--color-schriftfarbe);
+    margin-left: 10rem;
+}
+   
+.map{
+    display: flex;    
+    height: 30.3rem;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+}
 
