@@ -110,7 +110,7 @@
     border: 0.9rem solid;
 }
 
-.item-p6{
+/* .item-p6{
     
    
     border-color: var(--color-secundaryred);
@@ -127,7 +127,7 @@
     border-color: var(--color-secundarygreen);
     
 
-}
+} */
 
 
 .greetings{
@@ -140,34 +140,9 @@
     
 }
 
-.right {
-    border: 0.1rem solid;
-    border-color: var(--color-primary);
-    
-    display: flex;
-    width: 75%;
-    background-color: var(--color-background);
-    margin-left: 2rem;
-}
 
-.container-2{
-    display: flex;
-    
-}
 
-.fahrt{
-    position: absolute;
-    font-family: MetaOT-Norm;
-    font-weight: 0.5rem;
-    font-size: 1.6rem;
-    color: var(--color-schriftfarbe);
-    margin-left: 10rem;
-}
-   
-.map{
-    display: flex;    
-    height: 30.3rem;
-    margin-top: 4.5rem;
-    margin-left: 2rem;
-}
+
+
+
 
