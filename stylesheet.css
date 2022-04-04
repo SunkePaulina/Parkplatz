@@ -47,7 +47,7 @@
     display: flex;    
     align-content: flex-start;
     align-items: center;
-    margin-bottom: 1rem;
+   
     
     
     
@@ -56,9 +56,9 @@
 #logo{
     
     display: flex;
-    width: 15%;
+    width: 10%;
     height: auto;
-    margin-left: 1rem;
+    padding-left: 5rem;
    
 
 
@@ -78,8 +78,8 @@
     margin-top: 3rem;
     /* background-color:var(--color-innovativ);  */
     background-image: url(/Bilder/texture-1033755_1920.jpg); 
-    padding-top: 2rem;
-    padding-left: 3rem;
+    padding-top: 10rem;    
+    justify-content:space-evenly;
     
       
     
@@ -95,52 +95,63 @@
 
 
 .child{
-    padding-top: 3rem;
-    margin-top: 10rem;
-    width: 15rem;
-    height: 28rem;
+    
+    width: 40rem;
+    height: 65rem;
     /* background-image: url(/Bilder/texture-1033755_1920.jpg); */
     background-color: var(--color-innovativ);
     color:white;
     text-align: center;
     margin: 10px;
-    font-size: 40px;
+    font-size: 80px;
     font-family: MetaOT-Bold;
     font-weight: bold;
-    border: 0.9rem solid;
+    border: 1rem solid;
 }
 
-/* .item-p6{
-    
-   
-    border-color: var(--color-secundaryred);
+ .item-p6{
+     display: flex;
+     justify-content: center;
+     margin-right: 15rem;
+     padding-top: 3rem;
+
     
 
 }
 
 .item-p7{
-    border-color: var(--color-secundarygreen);
+    display: flex;
+    justify-content: center;
+    margin-right: 15rem;
+    padding-top: 3rem;
     
 
 }
 .item-p8{
-    border-color: var(--color-secundarygreen);
+    display: flex;
+    justify-content: center;
+    margin-right: 15rem;
+    padding-top: 3rem;
     
 
-} */
+} 
 
 
 .greetings{
-    margin-left: 20rem;
+    display: flex;
+    margin-left: 80rem;
     display: flex;
     text-align: center;
     color: var(--color-schriftfarbe);
-    font-size: 20px;
+    font-size: 40px;
     font-family: MetaOT-Norm;
+   
     
 }
 
-
+span{
+    font-family: MetaOT-Bold;
+    }
 
 
 
