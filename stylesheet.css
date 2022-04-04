@@ -139,7 +139,7 @@
 
 .greetings{
     display: flex;
-    margin-left: 80rem;
+    margin-left: 50rem;
     display: flex;
     text-align: center;
     color: var(--color-schriftfarbe);
